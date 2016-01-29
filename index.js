@@ -5,8 +5,7 @@ var program     = require('commander');
 var falafel     = require('falafel');
 var prettyBytes = require('pretty-bytes');
 var fs          = require('fs');
-var topParent;
-var modules = [];
+var modules     = [];
 
 program.version('1.0.0')
   .option('--source-dir [path]', 'The source code directory')
