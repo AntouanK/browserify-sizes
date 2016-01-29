@@ -1,0 +1,22 @@
+{
+  "name": "browserify-sizes",
+  "version": "1.0.0",
+  "description": "See the sizes of your bundled modules ( coming from browserify )",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "browserify",
+    "modules",
+    "sizes",
+    "size"
+  ],
+  "author": "Antonis Karamitros @antouank",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "falafel": "^1.2.0",
+    "pretty-bytes": "^3.0.0"
+  }
+}
